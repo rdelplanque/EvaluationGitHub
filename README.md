@@ -2,7 +2,7 @@
 
 | Pseudonyme GitHub | Nom      | Prénom | Rôle       |
 |-------------------|----------|--------|------------|
-| @rdelplanque      | Delplanque | Prénom | Étudiant 2 |
+| @rdelplanque      | Delplanque | Raphael | Étudiant 2 |
 | @Lenoxct          | Castel--gicquel      | Lenny | Étudiant 3 |
 | @ConstantAKT          | Alankpokinto      | Constant | Étudiant 1 |
 

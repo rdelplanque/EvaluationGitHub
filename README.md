@@ -33,11 +33,14 @@ Par:
 Parceque le hotfix par du main et donc nous corrigeons le main. Or le developpement en cours est dans develop, donc les developpeurs travaillent sur une version différentes de la version de production. Nous devons donc répercuter la correction dans la branch "develop".
 
 6. Quel est le rôle d’une branche de release ? \
+Par:
+La branche release fige tout un ensemble de fonctionnalités pour préparer une version et la fusionner dans la branche main.
+L'équipe de production peut continuer de travailler sur la branche "develop".
 
 
 7. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
 Par:
-
+Une issue décrit une tache avec un responsable et les critères de réalisation. Le Project permet de suivre les avancée de ces taches.
 
 
 

@@ -1,6 +1,5 @@
 /* ===== Variables communes (identité visuelle) ===== */
 :root {
-  :root {
   --couleur-primaire: #5b2a86;
   --couleur-secondaire: #ffb300;
   --couleur-texte: #1f1f1f;
@@ -8,7 +7,6 @@
   --couleur-fond-alt: #f3ecf8;
   --police: "Poppins", "Segoe UI", Arial, sans-serif;
   --largeur-max: 1100px;
-}
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }

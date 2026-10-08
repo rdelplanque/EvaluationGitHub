@@ -28,17 +28,20 @@ Par:
 La correction urgent part directement de la branch "main" pour corriger la version de production et se nomme "hotfix".
 La correction classique par de la branch "develop" et est livré dans une version ultérieure, se nomme "bugfix".
 
-6. Pourquoi répercuter une correction de production dans les développements en cours ? \
+5. Pourquoi répercuter une correction de production dans les développements en cours ? \
 Par:
 Parceque le hotfix par du main et donc nous corrigeons le main. Or le developpement en cours est dans develop, donc les developpeurs travaillent sur une version différentes de la version de production. Nous devons donc répercuter la correction dans la branch "develop".
 
-8. Quel est le rôle d’une branche de release ? \
+6. Quel est le rôle d’une branche de release ? \
 
 
-9. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
+7. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
+Par:
 
 
 
-10. Comment retrouver l’origine d’une modification dans l’historique GitHub ? \
 
+8. Comment retrouver l’origine d’une modification dans l’historique GitHub ? \
+Par:
+La modification peut se retrouver dans le commit ou par un git log.
 

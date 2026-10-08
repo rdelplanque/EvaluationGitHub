@@ -13,26 +13,28 @@ Donc nous pouvons continuer de developper sans risque de déterriorer la version
 
 3. Pourquoi imposer une revue de code avant intégration ?
 Par Delplanque Raphael:
-La revue permet de détecter des erreurs ou des incohérences touchent les branches principales.
+La revue permet de détecter des erreurs ou des incohérences qui touchent les branches principales.
 
 5. Quelles situations provoquent un conflit Git et pourquoi sa résolution n’est-elle pas toujours 
 automatique ?
+Par Delplanque Raphael:
+Un conflit Git survient lorsque deux branches modifient les même lignes d'un fichier.
+Sa résolution n'est donc pas automatique dans ce cas car Git ne sait pas quelle version conserver.
+
+
+7. Quelle différence entre correction classique et correction urgente de production ?
+
+
+8. Pourquoi répercuter une correction de production dans les développements en cours ?
+
+
+9. Quel est le rôle d’une branche de release ?
+
+
+10. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ?
 
 
 
-6. Quelle différence entre correction classique et correction urgente de production ?
-
-
-7. Pourquoi répercuter une correction de production dans les développements en cours ?
-
-
-8. Quel est le rôle d’une branche de release ?
-
-
-9. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ?
-
-
-
-10. Comment retrouver l’origine d’une modification dans l’historique GitHub ?
+11. Comment retrouver l’origine d’une modification dans l’historique GitHub ?
 
 

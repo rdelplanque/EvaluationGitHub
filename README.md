@@ -25,6 +25,24 @@
 7. Hotfix `v1.0.1` après l'incident de production.
 
 
+
+**Conflit Git et résolution**
+Origine: Deux améliorations ont été développées en parallèle depuis `develop` :
+- `feature/visual-identity` a modifié les variables de couleurs, la police (Poppins) et le style des liens de navigation (majuscules, espacement, liens arrondis, survol coloré) ;
+- `feature/mobile-layout` a modifié les mêmes blocs `.main-nav a` et `body` pour la mobilité : zone de clic plus grande, taille de police, interligne, retour à la ligne des mots longs.
+Une fois la première PR mergée, la seconde a été signalée en conflit sur ces lignes communes de `style.css`, que Git ne pouvait pas fusionner automatiquement.
+Le conflit a été résolu en local
+
+
+**Difficultés rencontrées** 
+- Harmonisation de la navigation et du style entre les pages développées séparément.
+- Provoquer un vrai conflit, puis le résoudre sans perdre aucune des deux améliorations.
+- Respect du temps imparti pour l'ensemble du workflow (release, hotfix, reports dans `develop`).
+
+**Version publiées**\
+'V1.0' : Fonctionnalités A, B, C, identité visuelle, adaptation mobile, correction des cartes et responsivité
+'V1.0.1' : Correction du lien de navigation vers les événements
+
 **Question:**
 1. Quel est l’intérêt de séparer développements en cours et versions stables ? \
 Par Delplanque Raphael:

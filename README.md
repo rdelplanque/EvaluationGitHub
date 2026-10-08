@@ -1,9 +1,10 @@
 **Identification des étudiants:**
-Pseudo GitHub        Nom             Prénom          Role
-rdelplanque          Delplanque      Raphael         Etudiant 2
-ConstantAKT          Alankpokinto    Constant        Etudiant 1
-Lenoxct              Castel--Gicquel Lenny           Etudiant 3
 
+| Pseudonyme GitHub | Nom      | Prénom | Rôle       |
+|-------------------|----------|--------|------------|
+| @rdelplanque      | Delplanque | Prénom | Étudiant 2 |
+| @pseudo1          | Nom      | Prénom | Étudiant 1 |
+| @pseudo3          | Nom      | Prénom | Étudiant 3 |
 
 Question:
 1. Quel est l’intérêt de séparer développements en cours et versions stables ?

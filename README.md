@@ -10,7 +10,7 @@
 **Présentation du projet**\
 Le projet consiste à réaliser un site web vitrine pour une association étudiante. 
 L'association veut présenter: 
-- ses activités et éventements à venir
+- ses activités et évenements à venir
 - pouvoir s'inscrire.
 
 

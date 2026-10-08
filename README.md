@@ -24,27 +24,27 @@ Sa résolution n'est donc pas automatique dans ce cas car Git ne sait pas quelle
 
 
 4. Quelle différence entre correction classique et correction urgente de production ? \
-Par:
+Par Castel-gicquel Lenny:
 La correction urgent part directement de la branch "main" pour corriger la version de production et se nomme "hotfix".
 La correction classique par de la branch "develop" et est livré dans une version ultérieure, se nomme "bugfix".
 
 5. Pourquoi répercuter une correction de production dans les développements en cours ? \
-Par:
+Par Castel-gicquel Lenny:
 Parceque le hotfix par du main et donc nous corrigeons le main. Or le developpement en cours est dans develop, donc les developpeurs travaillent sur une version différentes de la version de production. Nous devons donc répercuter la correction dans la branch "develop".
 
 6. Quel est le rôle d’une branche de release ? \
-Par:
+Par Castel-gicquel Lenny:
 La branche release fige tout un ensemble de fonctionnalités pour préparer une version et la fusionner dans la branche main.
 L'équipe de production peut continuer de travailler sur la branche "develop".
 
 
 7. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
-Par:
+Par constant alankpokinto:
 Une issue décrit une tache avec un responsable et les critères de réalisation. Le Project permet de suivre les avancée de ces taches.
 
 
 
 8. Comment retrouver l’origine d’une modification dans l’historique GitHub ? \
-Par:
+Par constant alankpokinto:
 La modification peut se retrouver dans le commit ou par un git log.
 

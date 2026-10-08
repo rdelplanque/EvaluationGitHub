@@ -1,11 +1,11 @@
 /* ===== Variables communes (identité visuelle) ===== */
 :root {
-  --couleur-primaire: #2b4c7e;
-  --couleur-secondaire: #f2a541;
-  --couleur-texte: #222;
-  --couleur-fond: #ffffff;
-  --couleur-fond-alt: #f4f6fa;
-  --police: "Segoe UI", Arial, sans-serif;
+  --couleur-primaire: #5b2a86;
+  --couleur-secondaire: #ffb300;
+  --couleur-texte: #1f1f1f;
+  --couleur-fond: #fffdf8;
+  --couleur-fond-alt: #f3ecf8;
+  --police: "Poppins", "Segoe UI", Arial, sans-serif;
   --largeur-max: 1100px;
 }
 
@@ -60,7 +60,7 @@ img { max-width: 100%; height: auto; }
 
 .main-nav ul {
   display: flex;
-  gap: 24px;
+  gap: 8px;
   list-style: none;
 }
 
@@ -71,8 +71,17 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: background 0.2s;
 }
-.main-nav a:hover { color: var(--couleur-secondaire); }
+
+.main-nav a:hover {
+  background: var(--couleur-secondaire);
+  color: var(--couleur-texte);
+}
 
 /* ===== Accueil ===== */
 .hero {

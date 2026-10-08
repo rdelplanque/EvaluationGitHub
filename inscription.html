@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Association BDE - Inscription</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- ===== En-tête et navigation ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#accueil" class="logo">Association<span>BDE</span></a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html#accueil">Accueil</a></li>
+          <li><a href="catalogue.html">Événements</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Section Inscription ===== -->
+    <section id="inscription" class="section">
+      <div class="container">
+        <h2>Formulaire d'Inscription</h2>
+        <p style="margin-bottom: 24px;">Remplissez les informations ci-dessous pour participer à nos événements et rejoindre l'association.</p>
+
+        <form action="#" method="post" class="inscription-form">
+          
+          <div class="form-row">
+            <!-- Nom -->
+            <div class="form-group">
+              <label for="nom">Nom :</label>
+              <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            </div>
+
+            <!-- Prénom -->
+            <div class="form-group">
+              <label for="prenom">Prénom :</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <!-- Classe -->
+            <div class="form-group">
+              <label for="classe">Classe / Filière :</label>
+              <input type="text" id="classe" name="classe" placeholder="ex: B1, M2..." required>
+            </div>
+
+            <!-- Ville -->
+            <div class="form-group">
+              <label for="ville">Ville :</label>
+              <input type="text" id="ville" name="ville" placeholder="Ville du campus" required>
+            </div>
+          </div>
+
+          <!-- Mail -->
+          <div class="form-group">
+            <label for="mail">Adresse E-mail :</label>
+            <input type="email" id="mail" name="mail" placeholder="j.doe@myskolae.fr" required>
+          </div>
+
+          <!-- Événements -->
+          <div class="form-group">
+            <label>Sélectionnez l'événement auquel vous souhaitez participer :</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item">
+                <input type="checkbox" name="evenements[]" value="soiree_integration">
+                Soirée d'intégration
+              </label><br>
+              <label class="checkbox-item">
+                <input type="checkbox" name="evenements[]" value="conference_ia">
+                Hackathon solidaire
+              </label><br>
+              <label class="checkbox-item">
+                <input type="checkbox" name="evenements[]" value="tournoi_esport">
+                Tournoi de jeux vidéos
+              </label><br>
+              <label class="checkbox-item">
+                <input type="checkbox" name="evenements[]" value="sortie_culturelle">
+                Conférence métiers du numérique
+              </label>
+            </div>
+          </div>
+
+          <!-- Bouton d'envoi -->
+          <div class="form-group" style="margin-top: 24px;">
+            <button type="submit" class="btn btn-submit">S'inscrire</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pied de page ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Association BDE — Projet Git &amp; GitHub</p>
+    </div>
+  </footer>
+
+</body>
+</html>

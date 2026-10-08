@@ -6,7 +6,26 @@
 | @Lenoxct          | Castel--gicquel      | Lenny | Étudiant 3 |
 | @ConstantAKT          | Alankpokinto      | Constant | Étudiant 1 |
 
-Question:
+
+**Fonctionnalités**
+| Fonctionnalité | Fichier | Responsable | Contenu |
+|---|---|---|---|
+| A — Présentation et navigation | `index.html`, `style.css` | Étudiant 1 | En-tête, logo, menu, accueil, présentation et valeurs de l'association |
+| B — Catalogue d'événements | `catalogue.html` | Étudiant 2 | 4 événements (titre, date, lieu, description) avec lien vers l'inscription |
+| C — Inscription | `inscription.html` | Étudiant 3 | Formulaire (nom, prénom, classe, ville, e-mail, choix d'événement), sans backend |
+
+
+**Étapes du développement**
+1. Création du dépôt, des branches `main` et `develop`, et protection des branches.
+2. Planification : Issues détaillées avec critères de réalisation, GitHub Project (Kanban + Roadmap).
+3. Développement des fonctionnalités A, B et C sur des branches `feature/*`, intégrées par PR avec revue.
+4. Améliorations parallèles (identité visuelle et mobile), avec un conflit volontaire et sa résolution.
+5. Correction des cartes d'événements sur mobile (`bugfix/`).
+6. Release `v1.0`.
+7. Hotfix `v1.0.1` après l'incident de production.
+
+
+**Question:**
 1. Quel est l’intérêt de séparer développements en cours et versions stables ? \
 Par Delplanque Raphael:
 Main ne doit contenir que du code validé et livrable. La branch develop contient le travail en cours.

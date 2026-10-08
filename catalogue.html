@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Événements — Association étudiante</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ===== Catalogue d'événements (Fonctionnalité B) ===== */
+    .catalogue-intro {
+      margin-bottom: 32px;
+    }
+
+    .events-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .event-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--couleur-fond);
+      border-top: 4px solid var(--couleur-secondaire);
+      border-radius: 6px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .event-card h3 {
+      color: var(--couleur-primaire);
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .event-infos {
+      list-style: none;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    .event-infos li {
+      margin-bottom: 4px;
+    }
+
+    .event-card p {
+      flex-grow: 1;
+      margin-bottom: 16px;
+    }
+
+    .event-card .btn {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Asso<span>Campus</span></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Événements</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-alt" id="evenements">
+      <div class="container">
+        <h2>Nos événements à venir</h2>
+        <p class="catalogue-intro">Découvrez les prochains rendez-vous de l'association et inscrivez-vous en un clic.</p>
+
+        <div class="events-list">
+
+          <article class="event-card">
+            <h3>Soirée d'intégration</h3>
+            <ul class="event-infos">
+              <li><strong>Date :</strong> <time datetime="2026-10-23">23 octobre 2026</time>, 20h</li>
+              <li><strong>Lieu :</strong> Salle des fêtes du campus</li>
+            </ul>
+            <p>Une soirée pour accueillir les nouveaux étudiants : musique, jeux et rencontres entre promotions.</p>
+            <a class="btn" href="inscription.html?evenement=soiree-integration">S'inscrire</a>
+          </article>
+
+          <article class="event-card">
+            <h3>Hackathon solidaire</h3>
+            <ul class="event-infos">
+              <li><strong>Date :</strong> <time datetime="2026-11-14">14 et 15 novembre 2026</time></li>
+              <li><strong>Lieu :</strong> Bâtiment B, salles informatiques</li>
+            </ul>
+            <p>24 heures pour concevoir en équipe une application au service d'une association locale. Repas offerts.</p>
+            <a class="btn" href="inscription.html?evenement=hackathon">S'inscrire</a>
+          </article>
+
+          <article class="event-card">
+            <h3>Tournoi de jeux vidéo</h3>
+            <ul class="event-infos">
+              <li><strong>Date :</strong> <time datetime="2026-12-05">5 décembre 2026</time>, 14h</li>
+              <li><strong>Lieu :</strong> Foyer étudiant</li>
+            </ul>
+            <p>Affrontez les autres étudiants en solo ou en équipe. Lots à gagner pour les trois premiers.</p>
+            <a class="btn" href="inscription.html?evenement=tournoi">S'inscrire</a>
+          </article>
+
+          <article class="event-card">
+            <h3>Conférence métiers du numérique</h3>
+            <ul class="event-infos">
+              <li><strong>Date :</strong> <time datetime="2027-01-21">21 janvier 2027</time>, 18h</li>
+              <li><strong>Lieu :</strong> Amphithéâtre A</li>
+            </ul>
+            <p>Des anciens élèves viennent présenter leur parcours et répondre à vos questions sur l'insertion professionnelle.</p>
+            <a class="btn" href="inscription.html?evenement=conference">S'inscrire</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Association étudiante</p>
+    </div>
+  </footer>
+
+</body>
+</html>

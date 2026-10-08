@@ -31,7 +31,12 @@ L'association veut présenter:
 6. Release `v1.0`.
 7. Hotfix `v1.0.1` après l'incident de production.
 
-
+**Workflow**
+- `main` : versions publiées (tags `v1.0`, `v1.0.1`).
+- `develop` : intégration des développements en cours.
+- `feature/*` : une branche par fonctionnalité ou amélioration, créée depuis `develop`.
+- `release/*` : préparation d'une version (vérifications uniquement), fusionnée dans `main` puis dans `develop`.
+- `hotfix/*` : correction urgente créée depuis `main`, fusionnée dans `main` puis dans `develop`.
 
 **Conflit Git et résolution**\
 Origine: Deux améliorations ont été développées en parallèle depuis `develop` :
@@ -70,7 +75,7 @@ Sa résolution n'est donc pas automatique dans ce cas car Git ne sait pas quelle
 4. Quelle différence entre correction classique et correction urgente de production ? \
 Par Castel-gicquel Lenny:\
 La correction urgent part directement de la branch "main" pour corriger la version de production et se nomme "hotfix".
-La correction classique par de la branch "develop" et est livré dans une version ultérieure, se nomme "bugfix".
+La correction classique par de la branch "develop" et est livré dans une version ultérieure, se nomme "fix".
 
 5. Pourquoi répercuter une correction de production dans les développements en cours ? \
 Par Castel-gicquel Lenny:\

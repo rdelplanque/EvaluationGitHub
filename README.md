@@ -33,7 +33,7 @@ L'association veut présenter:
 
 
 
-**Conflit Git et résolution**
+**Conflit Git et résolution**\
 Origine: Deux améliorations ont été développées en parallèle depuis `develop` :
 - `feature/visual-identity` a modifié les variables de couleurs, la police (Poppins) et le style des liens de navigation (majuscules, espacement, liens arrondis, survol coloré) ;
 - `feature/mobile-layout` a modifié les mêmes blocs `.main-nav a` et `body` pour la mobilité : zone de clic plus grande, taille de police, interligne, retour à la ligne des mots longs.
@@ -52,43 +52,43 @@ Le conflit a été résolu en local
 
 **Question:**
 1. Quel est l’intérêt de séparer développements en cours et versions stables ? \
-Par Delplanque Raphael:
+Par Delplanque Raphael:\
 Main ne doit contenir que du code validé et livrable. La branch develop contient le travail en cours.
 Donc nous pouvons continuer de developper sans risque de déterriorer la version actuellement en production.
 
 2. Pourquoi imposer une revue de code avant intégration ? \
-Par Delplanque Raphael:
+Par Delplanque Raphael:\
 La revue permet de détecter des erreurs ou des incohérences qui touchent les branches principales.
 
 3. Quelles situations provoquent un conflit Git et pourquoi sa résolution n’est-elle pas toujours 
 automatique ? \
-Par Delplanque Raphael:
+Par Delplanque Raphael:\
 Un conflit Git survient lorsque deux branches modifient les même lignes d'un fichier.
 Sa résolution n'est donc pas automatique dans ce cas car Git ne sait pas quelle version conserver.
 
 
 4. Quelle différence entre correction classique et correction urgente de production ? \
-Par Castel-gicquel Lenny:
+Par Castel-gicquel Lenny:\
 La correction urgent part directement de la branch "main" pour corriger la version de production et se nomme "hotfix".
 La correction classique par de la branch "develop" et est livré dans une version ultérieure, se nomme "bugfix".
 
 5. Pourquoi répercuter une correction de production dans les développements en cours ? \
-Par Castel-gicquel Lenny:
+Par Castel-gicquel Lenny:\
 Parceque le hotfix par du main et donc nous corrigeons le main. Or le developpement en cours est dans develop, donc les developpeurs travaillent sur une version différentes de la version de production. Nous devons donc répercuter la correction dans la branch "develop".
 
 6. Quel est le rôle d’une branche de release ? \
-Par Castel-gicquel Lenny:
+Par Castel-gicquel Lenny:\
 La branche release fige tout un ensemble de fonctionnalités pour préparer une version et la fusionner dans la branche main.
 L'équipe de production peut continuer de travailler sur la branche "develop".
 
 
 7. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
-Par constant alankpokinto:
+Par constant alankpokinto:\
 Une issue décrit une tache avec un responsable et les critères de réalisation. Le Project permet de suivre les avancée de ces taches.
 
 
 
 8. Comment retrouver l’origine d’une modification dans l’historique GitHub ? \
-Par constant alankpokinto:
+Par constant alankpokinto:\
 La modification peut se retrouver dans le commit ou par un git log.
 

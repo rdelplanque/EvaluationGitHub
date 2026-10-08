@@ -1,12 +1,14 @@
 /* ===== Variables communes (identité visuelle) ===== */
 :root {
-  --couleur-primaire: #2b4c7e;
-  --couleur-secondaire: #f2a541;
-  --couleur-texte: #222;
-  --couleur-fond: #ffffff;
-  --couleur-fond-alt: #f4f6fa;
-  --police: "Segoe UI", Arial, sans-serif;
+  :root {
+  --couleur-primaire: #5b2a86;
+  --couleur-secondaire: #ffb300;
+  --couleur-texte: #1f1f1f;
+  --couleur-fond: #fffdf8;
+  --couleur-fond-alt: #f3ecf8;
+  --police: "Poppins", "Segoe UI", Arial, sans-serif;
   --largeur-max: 1100px;
+}
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }

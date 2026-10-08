@@ -24,18 +24,21 @@ Sa résolution n'est donc pas automatique dans ce cas car Git ne sait pas quelle
 
 
 4. Quelle différence entre correction classique et correction urgente de production ? \
+Par:
+La correction urgent part directement de la branch "main" pour corriger la version de production et se nomme "hotfix".
+La correction classique par de la branch "develop" et est livré dans une version ultérieure, se nomme "bugfix".
+
+6. Pourquoi répercuter une correction de production dans les développements en cours ? \
+Par:
+Parceque le hotfix par du main et donc nous corrigeons le main. Or le developpement en cours est dans develop, donc les developpeurs travaillent sur une version différentes de la version de production. Nous devons donc répercuter la correction dans la branch "develop".
+
+8. Quel est le rôle d’une branche de release ? \
 
 
-5. Pourquoi répercuter une correction de production dans les développements en cours ? \
-
-
-6. Quel est le rôle d’une branche de release ? \
-
-
-7. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
+9. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ? \
 
 
 
-8. Comment retrouver l’origine d’une modification dans l’historique GitHub ? \
+10. Comment retrouver l’origine d’une modification dans l’historique GitHub ? \
 
 

@@ -47,7 +47,7 @@ Le conflit a été résolu en local
 - Respect du temps imparti pour l'ensemble du workflow (release, hotfix, reports dans `develop`).
 
 **Version publiées**\
-'V1.0' : Fonctionnalités A, B, C, identité visuelle, adaptation mobile, correction des cartes et responsivité
+'V1.0' : Fonctionnalités A, B, C, identité visuelle, adaptation mobile, correction des cartes et responsivité\
 'V1.0.1' : Correction du lien de navigation vers les événements
 
 **Question:**

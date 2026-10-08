@@ -162,3 +162,49 @@ img { max-width: 100%; height: auto; }
   .hero h1 { font-size: 1.4rem; }
   .main-nav a { padding: 8px 10px; font-size: 1rem; }
 }
+
+/* ===== Catalogue d'événements (Fonctionnalité B) ===== */
+.catalogue-intro {
+    margin-bottom: 32px;
+}
+
+.events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--couleur-fond);
+    border-top: 4px solid var(--couleur-secondaire);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.event-card h3 {
+    color: var(--couleur-primaire);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.event-infos {
+    list-style: none;
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+}
+
+.event-infos li {
+    margin-bottom: 4px;
+}
+
+.event-card p {
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+
+.event-card .btn {
+    text-align: center;
+}

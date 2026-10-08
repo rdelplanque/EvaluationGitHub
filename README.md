@@ -3,8 +3,8 @@
 | Pseudonyme GitHub | Nom      | Prénom | Rôle       |
 |-------------------|----------|--------|------------|
 | @rdelplanque      | Delplanque | Prénom | Étudiant 2 |
-| @pseudo1          | Nom      | Prénom | Étudiant 1 |
-| @pseudo3          | Nom      | Prénom | Étudiant 3 |
+| @Lenoxct          | Castel--gicquel      | Lenny | Étudiant 3 |
+| @ConstantAKT          | Alankpokinto      | Constant | Étudiant 1 |
 
 Question:
 1. Quel est l’intérêt de séparer développements en cours et versions stables ? \
